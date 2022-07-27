@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Bloco Gutenberg Livro
+Plugin Name: Bloco Banner Slider
 Description: Teste
 Version: 1.0.0
 */
@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function bbapp_custom_work_init() {
     if ( class_exists( 'bbapp' ) ) {
-        include 'buddyboss-app-custom-block.php';
+        include 'banner-slider-block.php';
         BuddyBossApp\Custom\BookBlock::instance();
     }
 }
